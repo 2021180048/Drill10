@@ -1,6 +1,6 @@
-objects = [[],[]]
+objects = [[],[],[]]
 
-def add_object(o, depth=0):
+def add_object(o, depth):
     objects[depth].append(o)
 
 def update():
